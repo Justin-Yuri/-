@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- //修改绑定mapper文件 -->
+<mapper namespace="com.Heaper.mapper.IDataMapper">
+    <!-- 修改返回值类型 -->
+    <select id="select_all" resultType="com.Heaper.JavaBeans.Data">
+        select * from stuone;
+    </select>
+</mapper>
